@@ -1,7 +1,7 @@
 # Ingress Controller
   An Ingress Controller in Kubernetes is like a smart traffic cop 🚦 for your cluster—it manages how external users access services running inside the cluster, especially HTTP and HTTPS traffic.
 
-Follow the below steps in terminal ad do it
+Follow the below steps in terminal and do it
 
 ### OIDC provider
 trust and authentication provider
