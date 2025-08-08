@@ -32,7 +32,7 @@ aws iam create-policy \
 ### Create IAM Role and K8 ServiceAccount. 
 Mapping between IAM ROle and K8 Service account
 
- It is independent platform as a service. K8 has its own RBAC. Why should we integrate K8 RBAC and IAM. Because AWS services should have IAM permissions to create/manage other services. to create AWS services from K8 resources K8 SA should integrate with AWS IAM Role.
+ k8 is independent platform as a service. K8 has its own RBAC. Why should we integrate K8 RBAC and IAM. Because AWS services should have IAM permissions to create/manage other services. to create AWS services from K8 resources K8 SA should integrate with AWS IAM Role.
 ```
 eksctl create iamserviceaccount \
 --cluster=$CLUSTER_NAME \
